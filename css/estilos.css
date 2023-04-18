@@ -1,0 +1,283 @@
+*{
+ margin: 0px;
+ padding: 0px;
+}
+:root {
+ --cor-fundo: #000;
+ --cor-texto: #fff;
+ --cor-botao: #009748;
+ --cor-assista: #222634;
+ --cor-texto2: #FFFFFF;
+ --cor-subtexto: #F9F9F9;
+}
+header {
+ background-color: var(--cor-fundo);
+ text-align: center;
+ padding: 20px 10px ;
+}
+
+
+#inicio {
+ background-color: var(--cor-fundo);
+ height: 900px;
+}
+.container{
+ display: grid;
+ grid-template-areas:
+"col-esquerda col-direita" ;
+ width: 1440px;
+ grid-template-columns: 720px 720px ;
+}
+
+.coluna_esquerda {
+ color: var(--cor-texto);
+ grid-area: col-esquerda;
+ height: 900px;
+ text-align: center;
+}
+
+
+.titulo {
+ font-family: 'Inter';
+ font-weight: 900;
+ font-size: 28px;
+ text-align: center;
+}
+
+.botao_combo {
+ display: block;
+ margin: 10px 60px;
+ background-color: var(--cor-botao);
+ color: var(--cor-texto);
+ text-decoration: none;
+ border-radius:  8px;
+  padding: 16px;
+ font-family: 'Inter';
+ font-size: 16px;
+}
+.botao_dev {
+ display: block;
+ background: transparent;
+ color: var(--cor-texto);
+ border: 2px solid #fff;
+ text-decoration: none;
+ border-radius: 8px;
+ padding: 16px;
+ margin: 0px 60px;
+ font-family: 'Inter';
+ font-size: 16px;
+}
+
+.bk_quarteto {
+ background-image: url('../imagens/vai.png');
+ background-repeat: no-repeat;
+ 
+
+}
+
+#assista {
+ background-color: var(--cor-assista);
+    height: 900px; 
+
+}
+
+.titulo2 {
+ position: absolute;
+    width: 588px;
+    height: 58px;
+    left: 732px;
+    top: 1385px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 120%
+}
+
+.logo2 {
+background-image: url('../imagens/pegas.png');
+background-repeat: no-repeat;
+float: left;
+border: transparent solid;
+padding: 0px;
+margin: 200px 500px 500px 50px;
+max-width: 1000px;
+
+
+}
+
+.coluna2 {
+color: var(--cor-texto2);
+grid-area: coluna_esquerda;
+height: 500px;
+text-align: center;
+}
+
+.coluna3 {
+color: var(--cor-subtexto);
+grid-area: coluna_direita;
+    height: 800px;
+    text-align: center;
+}
+
+.text2 {
+	text-align: center;
+	color: #fff;
+position: absolute;
+    width: 588px;
+    height: 48px;
+    left: 732px;
+    top: 1451px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+}
+
+#mercenarios{
+	text-align: center;
+	background-color: var(--cor-fundo);
+	height: 900px;
+}
+.texto3{
+	text-align: center;
+
+}
+.cont{
+	display: grid;
+	grid-template-areas:
+	"coluna_esq coluna_dir";
+	grid-template-columns: 720px 720px;
+	width: 1440px;
+height: 900px;
+margin: 0 auto;
+	}
+
+   .coluna_esq{
+   	color: var(--cor-texto);
+   	grid-area: coluna_esq;
+   	font-family: "inter";
+   	margin: -320px auto;
+   
+
+   }
+     .coluna_dir{
+   	color: var(--cor-texto);
+   	grid-area: coluna_dir;
+   	font-family: "inter";
+   	margin: -360px auto;
+
+   }
+.fela{
+	 display: block;
+ margin: 10px 60px;
+ background-color: var(--cor-botao);
+ color: var(--cor-texto);
+ text-decoration: none;
+ border-radius:  8px;
+  padding: 16px;
+ font-family: 'Inter';
+ font-size: 16px;
+}
+
+.text5 {
+	text-align: center;
+	color: #fff;
+position: absolute;
+    width: 588px;
+    height: 48px;
+    left: 732px;
+    top: 3251px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+}
+.titulo5 {
+ position: absolute;
+    width: 588px;
+    height: 58px;
+    left: 732px;
+    top: 3185px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 120%
+
+}
+
+.logo3 {
+background-image: url('../imagens/gay.png');
+background-repeat: no-repeat;
+float: left;
+border: transparent solid;
+padding: 0px;
+margin: 200px 500px 500px 50px;
+max-width: 1000px;
+
+
+}
+#dispo {
+	background-color: var(--cor-fundo);
+    height: 900px; 
+}
+.text6 {
+	position: absolute;
+	width: 1002.07px;
+	height: 57.49px;
+	left: 243.27px;
+	top: 3980px;
+
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 48px;
+	line-height: 120%;
+	text-align: center;
+	color: #FFFFFF;
+}
+.peggas {
+	position: absolute;
+	width: 1174px;
+	height: 243.85px;
+	left: 180px;
+	top: 4177.15px;
+}
+#conta{
+	background-color: var(--cor-assista);
+    height: 900px; 
+
+}
+.text10{
+
+	position: absolute;
+	width: 1002.07px;
+	height: 57.49px;
+	left: 250.27px;
+	top: 4780px;
+
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 48px;
+	line-height: 120%;
+	text-align: center;
+	color: #FFFFFF;
+}
+
+
+
+
+
+
+
+
+	
+
